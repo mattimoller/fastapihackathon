@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'mattimoller-wapp-helloworld'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.azureWebAppPublishProfile }}
