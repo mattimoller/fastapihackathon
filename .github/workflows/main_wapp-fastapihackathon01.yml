@@ -53,9 +53,9 @@ jobs:
         with:
           name: python-app
           path: .
-          
+      
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v2
+        uses: Azure/login@v1
         id: deploy-to-webapp
         with:
           app-name: 'mattimoller-wapp-helloworld'
