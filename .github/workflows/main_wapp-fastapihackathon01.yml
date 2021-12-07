@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'wapp-fastapihackathon01'
+          app-name: 'mattimoller-wapp-helloworld'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8CF112C34D80491791F2EC8F2D9AA7BE }}
